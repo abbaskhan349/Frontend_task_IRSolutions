@@ -7,7 +7,7 @@ interface InputFieldProps {
   value: string;
   onChange: (value: string) => void;
   placeholder?: string;
-  error?: string | null; // Add error prop
+  error?: string | null; 
 }
 
 const InputField: FC<InputFieldProps> = ({ label, type, value, onChange, placeholder, error }) => {
