@@ -4,7 +4,7 @@ import './App.css';
 import { useAuth } from './AuthContext';
 
 const LazyLogin = lazy(() => import('./Pages/Login'));
-const LazyHeader = lazy(() => import('./Components/Header'));
+const LazyHeader = lazy(() => import('./Pages/Header'));
 
 function App() {
   const authContext = useAuth();
